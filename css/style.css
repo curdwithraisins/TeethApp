@@ -1,0 +1,71 @@
+html, body {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.st0 {
+    fill:#FFFFFF;
+}
+
+.st0:hover {
+    stroke: #543643;
+    stroke-miterlimit:10;
+}
+
+.st1 {
+    fill:#EAC68C;
+}
+
+.st1:hover {
+    fill:#EAC654;
+}
+
+.st2 {
+    fill:#E89F8B;
+}
+
+.st2:hover {
+    fill:#E89353;
+}
+
+.st3 {
+    fill:#FFFFFF;
+    stroke:#231E1E;
+    stroke-miterlimit:10;
+}
+
+.st3:hover {
+    fill:#FF4646;
+}
+
+/*---------------------------------------*/
+
+.selectBox {
+    position: absolute;
+    display: block;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.selectBox div div {
+    display: inline-block;
+    width: 250px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    margin-left: 0px;
+    margin-top: -4px;
+}
+
+.selectBox div div:nth-child(1) {
+    width: 20px;
+}
+
+.selectBox div div:nth-child(2) {
+    padding: 0 10px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.selectBox div div:hover {
+    background: #EAC68C;
+}
